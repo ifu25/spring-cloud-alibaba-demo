@@ -21,10 +21,24 @@
     </properties>
 
     <dependencies>
+        <!--服务发现-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-            <version>2021.0.1.0</version>
+            <version>2021.1</version>
+        </dependency>
+
+        <!--Ribbon 已不兼容，提示：No instances available for xxx-->
+        <!--<dependency>-->
+        <!--    <groupId>org.springframework.cloud</groupId>-->
+        <!--    <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>-->
+        <!--    <version>2.2.10.RELEASE</version>-->
+        <!--</dependency>-->
+
+        <!--使用新的 loadbalancer 代替 Ribbon-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
     </dependencies>
 

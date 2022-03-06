@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="System" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <configuration default="false" name="System" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
     <module name="lttc-system" />
-    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.lttcsystem.SystemApplication" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lttc.system.SystemApplication" />
     <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
     <option name="ENABLE_JMX_AGENT" value="false" />
     <option name="ALTERNATIVE_JRE_PATH" />

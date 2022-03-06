@@ -44,4 +44,18 @@ public class HomeController {
         //请求服务
         return restTemplate.getForObject(url + "/userList", String.class);
     }
+
+    /**
+     * 用户列表（Ribbon 方式）
+     *
+     * @return java.lang.Object
+     * @author xinggang
+     * @create 2022-03-06
+     **/
+    @RequestMapping("/userList2")
+    public Object userList2() {
+
+        //请求服务
+        return restTemplate.getForObject("http://lttc-system/userList", String.class);
+    }
 }
