@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: lttc-system
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.201.6.168:8848
+        ip: 10.20.71.196
+server:
+  port: 8200
