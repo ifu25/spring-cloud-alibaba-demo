@@ -1,4 +1,4 @@
-package cn.lttc.lttcgateway.controller;
+package cn.lttc.gateway.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
